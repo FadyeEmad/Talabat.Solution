@@ -23,5 +23,6 @@ namespace Talabat.Repository.Data
         public DbSet <ProductBrand> productBrands { get; set; }
         public DbSet <ProductType> productTypes { get; set; }
         public DbSet<Courses> courses { get; set; }
+        public DbSet<Departament> departaments { get; set; }
     }
 }
